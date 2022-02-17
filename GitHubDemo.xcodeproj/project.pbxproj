@@ -14,6 +14,7 @@
 		C613AFD827BF06DE00C428D3 /* GitHubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AFD727BF06DE00C428D3 /* GitHubDemoTests.swift */; };
 		C613AFE227BF06DF00C428D3 /* GitHubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AFE127BF06DF00C428D3 /* GitHubDemoUITests.swift */; };
 		C613AFE427BF06DF00C428D3 /* GitHubDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AFE327BF06DF00C428D3 /* GitHubDemoUITestsLaunchTests.swift */; };
+		C613AFF127BF089100C428D3 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AFF027BF089000C428D3 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C613AFDD27BF06DE00C428D3 /* GitHubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C613AFE127BF06DF00C428D3 /* GitHubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDemoUITests.swift; sourceTree = "<group>"; };
 		C613AFE327BF06DF00C428D3 /* GitHubDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C613AFF027BF089000C428D3 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C613AFC627BF06DD00C428D3 /* GitHubDemoApp.swift */,
 				C613AFC827BF06DD00C428D3 /* MainView.swift */,
+				C613AFF027BF089000C428D3 /* SecondView.swift */,
 				C613AFCA27BF06DE00C428D3 /* Assets.xcassets */,
 				C613AFCC27BF06DE00C428D3 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C613AFF127BF089100C428D3 /* SecondView.swift in Sources */,
 				C613AFC927BF06DD00C428D3 /* MainView.swift in Sources */,
 				C613AFC727BF06DD00C428D3 /* GitHubDemoApp.swift in Sources */,
 			);
